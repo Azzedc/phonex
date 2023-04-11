@@ -26,7 +26,7 @@
                     <div class="phone_name">
                         <p class="name">Guillaume Levergeois
                         <p>Front-end developer</p>
-                        <p class="bio">PhoneX est une vitrine de ma personnalité</p>
+                        <p class="bio">PhoneX est une vitrine de ma personnalité.</p>
                         </div>
                     </div>
                 </div>
