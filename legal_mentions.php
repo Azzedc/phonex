@@ -76,6 +76,13 @@ L'équipe de PhoneX<br>
             </div>
         </article>    
     </section>
+    <section class="recent_products">
+        <article class="rgpd">
+            <div class="content"> 
+                <a href="conditions_generales.php">Conditions générales d'utilisation</a>
+            </div>
+        </article>    
+    </section>
 </main>
 
 <footer>
