@@ -25,10 +25,10 @@
                 <input style="border-radius: 1%;" type="connexion" name="email" id="email" required><br>
                 
                 <label for="password">Mot de passe :</label>
-                <input style="border-radius: 1%;" type="connexion" name="password" id="password" required><br>
+                <input style="border-radius: 1%;" type="password" name="password" id="password" required><br>
                 
                 <label for="password_confirm">Confirmer le mot de passe :</label>
-                <input style="border-radius: 1%;" type="connexion" name="password_confirm" id="password_confirm" required><br>
+                <input style="border-radius: 1%;" type="password" name="password_confirm" id="password_confirm" required><br>
                 
                 <button style="border-radius: 1%;" type="submit">S'inscrire</button>
             </form>

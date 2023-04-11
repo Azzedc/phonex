@@ -40,7 +40,7 @@
                     </p>
                     <p>
                         <label for="modele">Modèle du téléphone</label><br />
-                        <input type="text" name="modele" id="modele" required>
+                        <input style="width: 20%" type="text" name="modele" id="modele" required>
                     </p>
                     <p>
                         <label for="etat">État du téléphone</label><br />

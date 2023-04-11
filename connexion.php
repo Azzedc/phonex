@@ -25,10 +25,10 @@
             <div class="champ_connexion">
             <form class="form_connexion" action="connexion_process.php" method="post">
             <label for="username">Nom d'utilisateur :</label>
-            <input style="border-radius: 1%;" type="connexion" name="username" id="username" required><br>
+            <input style="border-radius: 1%;" type="text" name="username" id="username" required><br>
             
             <label for="password">Mot de passe :</label>
-            <input style="border-radius: 1%;" type="connexion" name="password" id="password" required><br>
+            <input style="border-radius: 1%;" type="password" name="password" id="password" required><br>
             
             <button type="submit">Se connecter</button>
         </form>
