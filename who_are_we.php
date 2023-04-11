@@ -51,7 +51,7 @@
                     <div class="phone_name">
                         <p class="name">Azzedine Ouahalou
                         <p>Back-end engineer</p>
-                        <p class="bio">Pour moi, Phone_x c'est avant tout une solution bénéfique à tous.</p>
+                        <p class="bio">PhoneX c'est nous, c'est eux, c'est vous !</p>
                         </div>
                     </div>
                 </div>
