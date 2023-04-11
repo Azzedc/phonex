@@ -8,6 +8,7 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 $password_confirm = $_POST['password_confirm'];
 
+
 // Vérifier si les mots de passe correspondent
 if ($password != $password_confirm) {
     echo "Les mots de passe ne correspondent pas. <a href='inscription.php'>Retourner au formulaire d'inscription.</a>";
