@@ -34,13 +34,16 @@ $stmt->close();
 <?php require_once 'header.php';
 ?>
 
-    <section>
-        <h1>Profil de <?php echo htmlspecialchars($user['username']); ?></h1>
-        <p>Email : <?php echo htmlspecialchars($user['email']); ?></p>
+    <section class="recent_products">
+        <article class="sell_form">
+            <h1>Profil de <?php echo htmlspecialchars($user['username']); ?></h1>
+            <p>Email : <?php echo htmlspecialchars($user['email']); ?></p>
+        </article>  
     </section>
 
 <section class="recent_products">
     <article class="sell_form">
+
 <?php
 $user_id = $_SESSION['user_id'];
 $query = "SELECT * FROM phone WHERE user_id = ?";
