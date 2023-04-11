@@ -78,7 +78,7 @@
                     <div class="phone_name">
                         <p class="name">Mathis Guisset
                         <p>Data scientist</p>
-                        <p class="bio">Pour moi, Phone_x c'est avant tout une solution bénéfique à tous.</p>
+                        <p class="bio">PhoneX c'est l'art de simplifier la reprise de son téléphone pour lui donner une seconde vie</p>
                         </div>
                     </div>
                 </div>
