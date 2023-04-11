@@ -66,7 +66,7 @@
                     <div class="phone_name">
                         <p class="name">Gabriel Karakhanyan
                         <p>Marketing</p>
-                        <p class="bio">Votre téléphone n'est pas un produit de consomation, c'est un investissement.</p>
+                        <p class="bio">Votre téléphone n'est pas un produit de consommation, c'est un investissement.</p>
                         </div>
                     </div>
                 </div>
