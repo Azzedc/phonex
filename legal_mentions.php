@@ -21,6 +21,40 @@ session_start();
         <article class="rgpd">
             <div class="content"> 
                 <p>
+                Nom de l'entreprise : PhoneX<br>
+                Adresse de l'entreprise : 4 Rue Paul Bernies, 31200 Toulouse
+                </p>
+            </div>
+        </article>    
+    </section>
+    <section class="recent_products">
+        <article class="rgpd">
+            <div class="content"> 
+                <p>
+                Coordonnées :<br>
+                Numéro de téléphone : 01 23 45 67 89<br>
+                Adresse mail : phonex_contact@gmail.com
+                </p>
+            </div>
+        </article>    
+    </section>
+    <section class="recent_products">
+        <article class="rgpd">
+            <div class="content"> 
+                <p>
+                Dirigeant de l'entreprise :<br>
+                Nom : Guillaume Levergeois<br>
+                Adresse : 4 Rue Paul Bernies, 31200 Toulouse<br>
+                Numéro de téléphone : 05 01 87 23 94<br>
+                Adresse mail : levergeois_guillaume_phonex@gmail.com
+                </p>
+            </div>
+        </article>    
+    </section>
+    <section class="recent_products">
+        <article class="rgpd">
+            <div class="content"> 
+                <p>
                 Cher utilisateur,<br>
                 <br>
 Nous prenons très au sérieux la protection de vos données personnelles et nous nous engageons à respecter la réglementation en vigueur en matière de protection des données, notamment le Règlement Général sur la Protection des Données (RGPD).<br>
@@ -44,5 +78,11 @@ L'équipe de PhoneX<br>
     </section>
 </main>
 
-<?php require_once 'footer.php';
-?>
+<footer>
+    <div id="footer_id">
+        <a href="who_are_we.php">Qui sommes-nous?</a>
+        <a href="sell.php">Revendre</a>
+        <a href="legal_mentions.php">Mentions légales</a>
+        <a href="RGPD.php">RGPD</a>
+    </div>
+</footer>
