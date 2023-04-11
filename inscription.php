@@ -31,6 +31,10 @@
                 <input style="border-radius: 1%;" type="password" name="password_confirm" id="password_confirm" required><br>
                 
                 <button style="border-radius: 1%;" type="submit">S'inscrire</button>
+                <p>
+                    <input type="checkbox" name="terms" id="terms" required>
+                    <label for="terms">J'accepte les <a href="conditions_generales.php" target="_blank">conditions d'utilisation</a> et les règles <a href="legal_mentions.php" target="_blank">RGPD</a>.</label>
+                </p>
             </form>
                 <div class="to_register">
                     <h4>Déjà inscrit ? <a href="connexion.php">Cliquez ici</a></h4>
