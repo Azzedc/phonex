@@ -321,7 +321,7 @@ body {
     display: grid;
     margin-top: 6%;
   }
-.azzed{
+.form_connexion{
   display: flex;
   flex-direction: column;
 }
@@ -353,4 +353,65 @@ article{
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 20px;
+  }
+
+  button[type=submit]{
+    background-color: #F5F5F5;
+    width:103.5%;
+    cursor:pointer;
+    font-family: montserrat;
+    font-weight: bold;
+    }
+
+  button[type=submit]:hover{
+    background-color: rgb(125, 188, 248);
+  }
+
+  input[type=submit]{
+    background-color: #F5F5F5;
+    width:20%;
+    cursor:pointer;
+    font-family: montserrat;
+    font-weight: bold;
+    }
+
+  input[type=submit]:hover{
+    background-color: rgb(125, 188, 248);
+  }
+
+  select{
+    background-color: #F5F5F5;
+    width:20%;
+    cursor:pointer;
+    font-family: montserrat;
+    font-weight: bold;
+    }
+
+  select:hover{
+    background-color: rgb(125, 188, 248);
+  }
+
+  input[type=text]{
+    background-color: #F5F5F5;
+    width:20%;
+    cursor:pointer;
+    font-family: montserrat;
+    font-weight: bold;
+    }
+
+  input[type=text]:hover{
+    background-color: rgb(125, 188, 248);
+  }
+
+
+  input[type=connexion]{
+    background-color: #F5F5F5;
+    width:100%;
+    cursor:pointer;
+    font-family: montserrat;
+    font-weight: bold;
+    }
+
+  input[type=connexion]:hover{
+    background-color: rgb(125, 188, 248);
   }

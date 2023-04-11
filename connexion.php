@@ -22,12 +22,12 @@
             <a href="index.php"><img src="images/logo_phonex.png" alt="Logo" style="width: 200px;"></a>
             <h2 style="margin-bottom: 2.5%">Connexion</h2>
             <div class="champ_connexion">
-            <form action="connexion_process.php" method="post">
+            <form class="form_connexion" action="connexion_process.php" method="post">
             <label for="username">Nom d'utilisateur :</label>
-            <input type="text" name="username" id="username" required>
+            <input style="border-radius: 1%;" type="connexion" name="username" id="username" required><br>
             
             <label for="password">Mot de passe :</label>
-            <input type="password" name="password" id="password" required>
+            <input style="border-radius: 1%;" type="connexion" name="password" id="password" required><br>
             
             <button type="submit">Se connecter</button>
         </form>

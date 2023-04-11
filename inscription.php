@@ -17,20 +17,20 @@
         <article class="article_connexion">
             <a href="index.php"><img src="images/logo_phonex.png" alt="Logo" style="width: 200px;"></a>
             <h2 style="margin-bottom: 4%">Inscription</h2>
-            <form class="azzed" action="inscription_process.php" method="post">
+            <form class="form_connexion" action="inscription_process.php" method="post">
                 <label for="username">Nom d'utilisateur :</label>
-                <input type="text" name="username" id="username" required><br>
+                <input style="border-radius: 1%;" type="connexion" name="username" id="username" required><br>
                 
                 <label for="email">Email :</label>
-                <input type="email" name="email" id="email" required><br>
+                <input style="border-radius: 1%;" type="connexion" name="email" id="email" required><br>
                 
                 <label for="password">Mot de passe :</label>
-                <input type="password" name="password" id="password" required><br>
+                <input style="border-radius: 1%;" type="connexion" name="password" id="password" required><br>
                 
                 <label for="password_confirm">Confirmer le mot de passe :</label>
-                <input type="password" name="password_confirm" id="password_confirm" required><br>
+                <input style="border-radius: 1%;" type="connexion" name="password_confirm" id="password_confirm" required><br>
                 
-                <button type="submit">S'inscrire</button>
+                <button style="border-radius: 1%;" type="submit">S'inscrire</button>
             </form>
                 <div class="to_register">
                     <h4>Déjà inscrit ? <a href="connexion.php">Cliquez ici</a></h4>
