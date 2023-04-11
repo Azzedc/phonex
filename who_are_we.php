@@ -39,7 +39,7 @@
                     <div class="phone_name">
                         <p class="name">Gabriel Michaud
                         <p>Leader</p>
-                        <p class="bio">Pour moi, Phone_x c'est avant tout une solution bénéfique à tous.</p>
+                        <p class="bio">Pour moi, PhoneX c'est avant tout une solution bénéfique à tous.</p>
                         </div>
                     </div>
                 </div>
