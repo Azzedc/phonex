@@ -26,7 +26,7 @@
                     <div class="phone_name">
                         <p class="name">Guillaume Levergeois
                         <p>Front-end developer</p>
-                        <p class="bio">Pour moi, Phone_x c'est avant tout une solution bénéfique à tous.</p>
+                        <p class="bio">PhoneX est une vitrine de ma personnalité</p>
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                     <div class="phone_name">
                         <p class="name">Gabriel Karakhanyan
                         <p>Marketing</p>
-                        <p class="bio">Pour moi, Phone_x c'est avant tout une solution bénéfique à tous.</p>
+                        <p class="bio">Votre téléphone n'est pas un produit de consommation, c'est un investissement.</p>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                     <img class="photos" src="https://media.licdn.com/dms/image/C4E03AQF2dYR4TiWB9g/profile-displayphoto-shrink_800_800/0/1656411160452?e=1686787200&v=beta&t=3r9hf7EOEWZXsPP2rMCo9-rhVV64ilsPANziyC3nIc0" alt="Logo">
                     <div class="phone_name">
                         <p class="name">Mathis Guisset
-                        <p>Data scientist</p>
+                        <p>Admin BDD</p>
                         <p class="bio">PhoneX c'est l'art de simplifier la reprise de son téléphone pour lui donner une seconde vie</p>
                         </div>
                     </div>
