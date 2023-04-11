@@ -74,7 +74,7 @@
         </article><article class="person">
             <div class="content">
                 <div class="image">
-                    <img class="photos" src="images/image.jpg" alt="Logo">
+                    <img class="photos" src="https://media.licdn.com/dms/image/C4E03AQF2dYR4TiWB9g/profile-displayphoto-shrink_800_800/0/1656411160452?e=1686787200&v=beta&t=3r9hf7EOEWZXsPP2rMCo9-rhVV64ilsPANziyC3nIc0" alt="Logo">
                     <div class="phone_name">
                         <p class="name">Mathis Guisset
                         <p>Data scientist</p>
