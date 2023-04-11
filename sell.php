@@ -117,7 +117,7 @@
                 <div class="image">
                     <a href="sell.php"><img src="images/samsung.png" alt="Samsung phone"></a>
                     <div class="phone_name">
-                        <p>Samsung
+                        <p>Samsung A12
                         <div class="price">
                         <p>Reprise à partir de 199€</p>
                         </div>
