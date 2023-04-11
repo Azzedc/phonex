@@ -13,10 +13,6 @@ session_start();
 
 <body>
 
-<!-- Include config.php file to connect to the database -->
-
-
-
 <?php require_once 'header.php';
 ?>
 
