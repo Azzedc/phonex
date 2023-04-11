@@ -78,7 +78,7 @@
                     <div class="phone_name">
                         <p class="name">Mathis Guisset
                         <p>Admin BDD</p>
-                        <p class="bio">PhoneX c'est l'art de simplifier la reprise de son téléphone pour lui donner une seconde vie</p>
+                        <p class="bio">PhoneX c'est l'art de simplifier la reprise de son téléphone pour lui donner une seconde vie.</p>
                         </div>
                     </div>
                 </div>
