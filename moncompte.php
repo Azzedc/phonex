@@ -35,14 +35,15 @@ $stmt->close();
 ?>
 
     <section class="recent_products">
-        <article class="sell_form">
+        <article class="profil_form">
             <h1>Profil de <?php echo htmlspecialchars($user['username']); ?></h1>
+            
             <p>Email : <?php echo htmlspecialchars($user['email']); ?></p>
         </article>  
     </section>
 
 <section class="recent_products">
-    <article class="sell_form">
+    <article class="profil_form">
 
 <?php
 $user_id = $_SESSION['user_id'];
