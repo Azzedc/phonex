@@ -37,6 +37,7 @@
                 </div>
             </div>
         </article>
+        <img class="image_inscription" src="images/pexel_inscr.jpg" alt="Samsung phone">
     </section>
 
     <?php require_once 'footer.php';

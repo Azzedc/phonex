@@ -364,7 +364,7 @@ article{
     }
 
   button[type=submit]:hover{
-    background-color: rgb(125, 188, 248);
+    background-color: rgb(255, 255, 255);
   }
 
   input[type=submit]{
@@ -376,7 +376,7 @@ article{
     }
 
   input[type=submit]:hover{
-    background-color: rgb(125, 188, 248);
+    background-color: rgb(255, 255, 255);
   }
 
   select{
@@ -388,7 +388,7 @@ article{
     }
 
   select:hover{
-    background-color: rgb(125, 188, 248);
+    background-color: rgb(255, 255, 255);
   }
 
   input[type=text]{
@@ -400,12 +400,12 @@ article{
     }
 
   input[type=text]:hover{
-    background-color: rgb(125, 188, 248);
+    background-color: rgb(255, 255, 255);
   }
 
 
   input[type=connexion]{
-    background-color: #F5F5F5;
+    background-color: #e0dede;
     width:100%;
     cursor:pointer;
     font-family: montserrat;
@@ -413,5 +413,20 @@ article{
     }
 
   input[type=connexion]:hover{
-    background-color: rgb(125, 188, 248);
+    background-color: rgb(255, 255, 255);
+  }
+
+  .image_connexion{
+    width: 65rem;
+    height: 65rem;
+    border-radius: 5%;
+    margin-right: 1rem;
+  }
+
+  .image_inscription{
+    margin-top: 4%;
+    width: 60rem;
+    height: 45rem;
+    border-radius: 5%;
+    margin-left: 1rem;
   }

@@ -18,6 +18,7 @@
 <body>
 
     <section class="connexion">
+        <img class="image_connexion" src="images/pexels.jpg" alt="Samsung phone">
         <article class="article_connexion">
             <a href="index.php"><img src="images/logo_phonex.png" alt="Logo" style="width: 200px;"></a>
             <h2 style="margin-bottom: 2.5%">Connexion</h2>
