@@ -85,10 +85,12 @@ $stmt->close();
     </tbody>
 </table>
 </article>
-</main>
+</section>
 
 <?php require_once 'footer.php';
 ?>
+
+
 
 </body>
 </html>
