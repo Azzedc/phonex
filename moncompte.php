@@ -34,7 +34,7 @@ $stmt->close();
 <?php require_once 'header.php';
 ?>
 
-    <section class="recent_products">
+    <section style="margin-top: 5%; margin-bottom: 5%;" class="recent_products">
         <article class="profil_form">
             <h1>Profil de <?php echo htmlspecialchars($user['username']); ?></h1>
             
@@ -42,7 +42,7 @@ $stmt->close();
         </article>  
     </section>
 
-<section class="recent_products">
+<section style=" margin-bottom: 20.7%;" class="recent_products">
     <article class="profil_form">
 
 <?php
@@ -89,8 +89,6 @@ $stmt->close();
 
 <?php require_once 'footer.php';
 ?>
-
-
 
 </body>
 </html>
