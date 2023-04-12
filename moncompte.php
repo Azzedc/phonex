@@ -42,7 +42,13 @@ $stmt->close();
         </article>  
     </section>
 
-<section style=" margin-bottom: 20.7%;" class="recent_products">
+    <section class="recent_products">
+        <article class="profil_form">
+            <h2>Mes téléphones vendus</h2>
+        </article>  
+    </section>
+
+<section class="recent_products">
     <article class="profil_form">
 
 <?php
@@ -87,6 +93,12 @@ $stmt->close();
 </article>
 </section>
 
+<section class="recent_products">
+        <img class="img" src="images/pexel_phone.jpg" alt="Samsung phone">
+        <img class="img" src="images/pexel_phone2.jpg" alt="Samsung phone">
+        <img class="img" src="images/pexel_phone3.jpg" alt="Samsung phone">
+        <img class="img" src="images/pexel_phone4.jpg" alt="Samsung phone">
+</section>
 <?php require_once 'footer.php';
 ?>
 
