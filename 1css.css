@@ -1,4 +1,4 @@
-/* Toutes les pages  */
+/* ------- Toutes les pages -------  */
 
 html {
     font-family: montserrat;
@@ -149,7 +149,7 @@ body {
   }
 
 
-/* who_are_we */
+/* ------- who_are_we ------- */
 
 main {
   max-width: 1200px;
@@ -210,7 +210,7 @@ main {
   margin-left: 13%;
 }
 
-/* sell  */
+/* ------- sell -------  */
 
 .annonce_form {
   display: flex;
@@ -293,7 +293,7 @@ main {
   margin-top: 10px;
 }
 
-/* index */
+/* ------- index ------- */
 
 .recent_products {
   display: flex;
@@ -405,7 +405,7 @@ main {
   margin-top: -25px;
 }
 
-/* inscription  */
+/* ------- inscription -------  */
 
 .connexion {
   display: flex;
@@ -446,7 +446,7 @@ main {
   margin-left: 1rem;
 }
 
-/* connexion  */
+/* ------- connexion -------  */
 
 .connexion {
   display: flex;
@@ -491,7 +491,7 @@ main {
   display: grid;
   margin-top: 6%;
 }
-/* conditions_générales  */
+/* -------- conditions_générales -------  */
 
 .section_conditions{
   display: flex;
@@ -511,7 +511,7 @@ main {
   .content {
     padding: 20px;
   }
-/* legal_mentions  */
+/* ------- legal_mentions -------  */
 
 .content {
   padding: 20px;
@@ -534,7 +534,7 @@ main {
   margin-top: 20px;
 }
 
-/* moncompte */
+/* ------- moncompte ------- */
   
 .profil_form {
   background-color: #FFFFFF;
