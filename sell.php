@@ -25,6 +25,7 @@
     </section>
     <section class="revendre_products">
         <article class="sell_form">
+            <!-- Voir add_phone.php pour la méthode de post  -->
             <form  method="post" action="add_phone.php">
                     <p>
                         <label for="marque">Marque du téléphone</label><br />

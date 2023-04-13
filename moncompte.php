@@ -5,12 +5,11 @@ if (!isset($_SESSION['user_id'])) {
     exit();
 }
 
-// Connexion à la base de données
 require_once "config.php";
 
 $user_id = $_SESSION['user_id'];
 
-// Récupération des informations de l'utilisateur
+
 $stmt = $conn->prepare("SELECT * FROM users WHERE id = ?");
 $stmt->bind_param("i", $user_id);
 $stmt->execute();
@@ -36,6 +35,9 @@ $stmt->close();
 
     <section style="margin-top: 5%; margin-bottom: 5%;" class="recent_products">
         <article class="profil_form">
+            <!-- Ici la fonction htmlspecialchars permet de se proteger des attaques attaques XSS (cross-site scripting) -->
+            <!-- https://www.kaspersky.fr/resource-center/definitions/what-is-a-cross-site-scripting-attack -->
+            <!-- htmlspecialchars convertit les charactères spéciaux en entités HTML qui empechera les script d'etre éxécuter -->
             <h1>Profil de <?php echo htmlspecialchars($user['username']); ?></h1>
             
             <p>Email : <?php echo htmlspecialchars($user['email']); ?></p>
@@ -51,6 +53,8 @@ $stmt->close();
 <section class="recent_products">
     <article class="profil_form">
 
+<!-- Requete pour récupéré les téléphones de l'utilisateurs -->
+<!-- fetch_all permet de récupérer tout les result et MYSQLI_ASSOC pour récupéré sous tableau assiociatif -->
 <?php
 $user_id = $_SESSION['user_id'];
 $query = "SELECT * FROM phone WHERE user_id = ?";
@@ -81,6 +85,7 @@ $stmt->close();
                 <td><?php echo htmlspecialchars($phone['couleur']); ?></td>
                 <td><?php echo htmlspecialchars($phone['etat']); ?></td>
                 <td>
+                    <!-- CF delete_phone.php -->
                     <form method="post" action="delete_phone.php">
                         <input type="hidden" name="phone_id" value="<?php echo $phone['id']; ?>">
                         <input type="submit" value="Supprimer">

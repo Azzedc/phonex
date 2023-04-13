@@ -23,6 +23,7 @@
             <a href="index.php"><img src="images/logo_phonex.png" alt="Logo" style="width: 200px;"></a>
             <h2 style="margin-bottom: 2.5%">Connexion</h2>
             <div class="champ_connexion">
+                <!-- CF Connexion_process.php -->
             <form class="form_connexion" action="connexion_process.php" method="post">
             <label for="username">Nom d'utilisateur :</label>
             <input style="border-radius: 1%;" type="text" name="username" id="username" required><br>
