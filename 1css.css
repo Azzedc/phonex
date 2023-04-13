@@ -1,3 +1,5 @@
+/* Toutes les pages  */
+
 html {
     font-family: montserrat;
   }
@@ -67,290 +69,6 @@ body {
   #right {
     display: flex;
     align-items: center;
-  }
-  
-  main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .recent_products {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 20px;
-  }
-  .revendre{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 20px;
-  }
-  .product {
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
-    margin-left: 1%;
-    margin-right: 1%;
-    overflow: hidden;
-    position: relative;
-    width: calc(32% - 10px);
-  }
-  
-  .product:hover {
-    transform: scale(1.05);
-    transition: all 0.2s ease-in-out;
-  }
-  
-  .content {
-    padding: 20px;
-  }
-  
-  .image {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .image img {
-    height: 250px;
-  }
-  
-  .phone_name {
-    margin-top: 20px;
-  }
-
-  .revendre_txt  a{
-    text-decoration: none;
-    text-align: center;
-  }
-
-  
-  .price {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 10px;
-  }
-  
-  .connexion {
-    display: flex;
-    justify-content:center;
-    margin-top: 20px;
-    width: 100%;
-  }
-
-  .champ_connexion{
-    padding: 20px;
-  }
-
-  .contenu {
-    text-align: center;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    justify-content: center;
-  }
-
-  .team {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    margin-top: 20px;
-    width: 100%;
-    height: 100%;
-  }
-
-  .faq_title {
-    font-weight: bold;
-  }
-
-  .faq_article {
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-  }
-  
-  .faq_article:hover {
-    transform: scale(1.05);
-    transition: all 0.2s ease-in-out;
-  }
-
-  .faq_images{
-    width: 300px;
-    border-radius: 10px;
-    margin-top: -13%;
-  }
-
-  .faq_images_left{
-    width: 300px;
-    border-radius: 10px;
-    margin-top: -13%;
-    margin-right: 15px;
-  }
-
-  .faq_images_left_strange{
-    width: 300px;
-    border-radius: 10px;
-    margin-top: -13%;
-    margin-right: 15px;
-
-  }
-
-  .faq_images_right{
-    width: 300px;
-    border-radius: 10px;
-    margin-top: -30%;
-  }
-
-  .faq{
-    display:flex
-  }
-
-  .faq_text{
-    margin-top: -25px;
-  }
-
-  .sell_form {
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-right: 1em;
-    margin-left: 1em;
-    text-align: center;
-    padding-left: 1em;
-  }
-
-  .profil_form {
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-    margin-right: 1em;
-    margin-left: 1em;
-    text-align: center;
-    padding-left: 1em;
-  }
-  
-  .annonce_form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 20px;
-    text-align: center;
-  }
-
-  .product_form {
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
-    overflow: hidden;
-    position: relative;
-    width: calc(33.33% - 10px);
-  }
-  .revendre_products {
-    display: flex;
-    margin-top: 20px;
-    justify-content: space-around;
-  }
-
-  .bio{
-    font-size: small;
-  }
-
-  .name{
-    font-weight: bold;
-  }
-
-  .photos{
-    border-radius: 5%;
-    width: 70%;
-    margin-left: 13%;
-  }
-
-  .person {
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
-    overflow: hidden;
-    position: relative;
-    margin-left: 15px;
-    margin-top: 15px;
-    width: 32%;
-  }
-  
-  .person:hover {
-    transform: scale(1.05);
-    transition: all 0.2s ease-in-out;
-  }
-
-  .article_connexion {
-    margin-top: 5%;
-    padding-top: 2%;
-    align-items: center;
-    text-align: center;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    margin-bottom: 5%;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-  }
-
-  .to_register{
-    display: grid;
-    margin-top: 6%;
-  }
-  .form_connexion{
-    display: flex;
-    flex-direction: column;
-  }
-  article{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .rgpd {
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
-    overflow: hidden;
-    position: relative;
-    width: calc(100% - 10px);
-  }
-
-  .conditions_utilisations {
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
-    width: calc(70% - 10px);
-  }
-
-  .section_conditions{
-  display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 20px;
   }
 
   button[type=submit]{
@@ -425,29 +143,426 @@ body {
     background-color: rgb(255, 255, 255);
   }
 
-  .image_connexion{
-    width: 45rem;
-    height: 45rem;
-    border-radius: 5%;
-    margin-right: 1rem;
-    margin-top: 2%;
-    margin-bottom: 2rem;
+  article{
+    display: flex;
+    flex-direction: column;
   }
 
-  .image_inscription{
-    margin-top: 4%;
-    width: 60rem;
-    height: 45rem;
-    border-radius: 5%;
-    margin-left: 1rem;
+
+/* who_are_we */
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.team {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.person {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 32%;
+}
+
+.person:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.content {
+  padding: 20px;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+}
+
+.phone_name {
+  margin-top: 20px;
+}
+
+.bio{
+  font-size: small;
+}
+
+.name{
+  font-weight: bold;
+}
+
+.photos{
+  border-radius: 5%;
+  width: 70%;
+  margin-left: 13%;
+}
+
+/* sell  */
+
+.annonce_form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.product_form {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  width: calc(33.33% - 10px);
+}
+
+.sell_form {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-right: 1em;
+  margin-left: 1em;
+  text-align: center;
+  padding-left: 1em;
+}
+
+.revendre_products {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+
+.recent_products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.product {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  margin-left: 1%;
+  margin-right: 1%;
+  overflow: hidden;
+  position: relative;
+  width: calc(32% - 10px);
+}
+
+.product:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.content {
+  padding: 20px;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+}
+
+.phone_name {
+  margin-top: 20px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* index */
+
+.recent_products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.product {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  margin-left: 1%;
+  margin-right: 1%;
+  overflow: hidden;
+  position: relative;
+  width: calc(32% - 10px);
+}
+
+.product:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.content {
+  padding: 20px;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+}
+
+.phone_name {
+  margin-top: 20px;
+}
+
+
+.revendre_txt  a{
+  text-decoration: none;
+  text-align: center;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.revendre{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.faq_title {
+  font-weight: bold;
+}
+
+.faq_article {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.faq_article:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.faq_images{
+  width: 300px;
+  border-radius: 10px;
+  margin-top: -13%;
+}
+
+.faq_images_left{
+  width: 300px;
+  border-radius: 10px;
+  margin-top: -13%;
+  margin-right: 15px;
+}
+
+.faq_images_left_strange{
+  width: 300px;
+  border-radius: 10px;
+  margin-top: -13%;
+  margin-right: 15px;
+
+}
+
+.faq_images_right{
+  width: 300px;
+  border-radius: 10px;
+  margin-top: -30%;
+}
+
+.faq{
+  display:flex
+}
+
+.faq_text{
+  margin-top: -25px;
+}
+
+/* inscription  */
+
+.connexion {
+  display: flex;
+  justify-content:center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.article_connexion {
+  margin-top: 5%;
+  padding-top: 2%;
+  align-items: center;
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.form_connexion{
+  display: flex;
+  flex-direction: column;
+}
+
+.to_register{
+  display: grid;
+  margin-top: 6%;
+}
+
+.image_inscription{
+  margin-top: 4%;
+  width: 60rem;
+  height: 45rem;
+  border-radius: 5%;
+  margin-left: 1rem;
+}
+
+/* connexion  */
+
+.connexion {
+  display: flex;
+  justify-content:center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.image_connexion{
+  width: 45rem;
+  height: 45rem;
+  border-radius: 5%;
+  margin-right: 1rem;
+  margin-top: 2%;
+  margin-bottom: 2rem;
+}
+
+.article_connexion {
+  margin-top: 5%;
+  padding-top: 2%;
+  align-items: center;
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.champ_connexion{
+  padding: 20px;
+}
+
+.form_connexion{
+  display: flex;
+  flex-direction: column;
+}
+
+.to_register{
+  display: grid;
+  margin-top: 6%;
+}
+/* conditions_générales  */
+
+.section_conditions{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
   }
 
-    .img{
-      width: 20%;
-      height: 20%;
-      margin-top: 1%;
-      margin-bottom: 0.5%;
-      border-radius: 5%;
-      margin-left: 1%;
-      margin-right: 1%;
-    }
+  .conditions_utilisations {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    width: calc(70% - 10px);
+  }
+
+  .content {
+    padding: 20px;
+  }
+/* legal_mentions  */
+
+.content {
+  padding: 20px;
+}
+
+.rgpd {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  width: calc(100% - 10px);
+}
+
+.recent_products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* moncompte */
+  
+.profil_form {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-right: 1em;
+  margin-left: 1em;
+  text-align: center;
+  padding-left: 1em;
+}
+
+.recent_products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.img{
+  width: 20%;
+  height: 20%;
+  margin-top: 1%;
+  margin-bottom: 0.5%;
+  border-radius: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
