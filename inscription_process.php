@@ -15,7 +15,8 @@ if ($password != $password_confirm) {
     exit();
 }
 
-
+// PASSWORD_DEFAULT - Use the bcrypt pour le moment et et si mise a jours le hashage ce met a jours 
+// https://www.php.net/manual/fr/reserved.variables.server.php
 $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
 

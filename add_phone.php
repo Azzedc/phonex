@@ -9,6 +9,7 @@ if (!isset($_SESSION['user_id'])) {
 
 require_once "config.php";
 
+// Récupération des post de sell.php
 $marque = $_POST['marque'];
 $modele = $_POST['modele'];
 $stockage = $_POST['stockage'];
@@ -25,6 +26,10 @@ $stmt->bind_param("isssss", $user_id, $marque, $modele, $stockage, $couleur, $et
 if ($stmt->execute()) {
   header("Location: index.php?phone_added=true");
 }
+else
+  {
+    header("Location: index.php?phone_added=False");
+  }
 
 $stmt->close();
 $conn->close();

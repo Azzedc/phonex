@@ -17,6 +17,7 @@
         <article class="article_connexion">
             <a href="index.php"><img src="images/logo_phonex.png" alt="Logo" style="width: 200px;"></a>
             <h2 style="margin-bottom: 4%">Inscription</h2>
+            <!-- CF inscription_process.php -->
             <form class="form_connexion" action="inscription_process.php" method="post">
                 <label for="username">Nom d'utilisateur :</label>
                 <input style="border-radius: 1%;" type="connexion" name="username" id="username" required><br>
